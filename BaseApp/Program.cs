@@ -1,4 +1,14 @@
+
 var builder = WebApplication.CreateBuilder(args);
+
+//LOGGER CONFIGURATION
+//var logger = new LoggerConfiguration().WriteTo.Console()
+//    .WriteTo.File("Logs/NzWalks_Log.txt", rollingInterval: RollingInterval.Minute)
+//    .MinimumLevel.Warning()
+//    .CreateLogger();
+//builder.Logging.ClearProviders();
+//builder.Logging.AddSerilog(logger);
+
 
 // Add services to the container.
 
